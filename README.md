@@ -11,7 +11,8 @@ Instead of just setting a basic threshold (like "if CPU > 80, add server"), I tr
 
 I wrapped that AI brain in a FastAPI backend. Then, I built a real-time monitoring dashboard using React and Tailwind CSS. The dashboard sends live server metrics to the Python API, and the AI returns a prediction. If the predicted future load is dangerously high, the dashboard flashes an "Overload Imminent" warning and fires a trigger to automatically scale up the infrastructure.
 
-[Delete this text and drag-and-drop your dashboard.png.png file right here!]
+<img width="1177" height="540" alt="dashboard png" src="https://github.com/user-attachments/assets/19bb9551-655e-4e88-b4c7-ffce6113d158" />
+
 
 ### The Stack
 * **Backend:** Python, FastAPI, Pandas, Scikit-learn
